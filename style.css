@@ -67,9 +67,11 @@ a:hover {
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
+    grid-column: 3 / 21;
+    grid-row: 3 / 21;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   /* Hide the images by default */
