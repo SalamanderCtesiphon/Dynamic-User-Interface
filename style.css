@@ -35,6 +35,7 @@ h1 {
     width: 8.5rem;
     height: 1.5rem;
     padding: 1px;
+    cursor: pointer;
   }
   
   .dropdown-content {
@@ -44,11 +45,18 @@ h1 {
     width: 8.5rem;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    border: 1px solid black;
   }
   
   .dropdown:hover .dropdown-content {
     display: block;
+    width: 8.5rem;
+
   }
+
+a:hover {
+    color: blue;
+}
 
 .sidebar {
     grid-column: 1 / 3;
