@@ -27,10 +27,14 @@ h1 {
     padding: 3px;
 }
 
-.dropDownMenu {
+ul {
+    display: flex;
+    flex-direction: column;
     margin-left: 21rem;
     border: 1px solid black;
     width: 20rem;
+    list-style: none;
+    margin-top: 6rem;
 }
 
 .sidebar {
